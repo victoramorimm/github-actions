@@ -22,5 +22,5 @@ test("adds 4 + 2 is equal 6", () => {
 
   const sum = firstNumber + secondNumber;
 
-  expect(sum).not.toBe(6);
+  expect(sum).not.toBe(7);
 });

@@ -13,5 +13,5 @@ test("adds 4 + 2 is not equal to 3", () => {
 
   const sum = firstNumber + secondNumber;
 
-  expect(sum).toBe(3);
+  expect(sum).not.toBe(3);
 });

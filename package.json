@@ -8,6 +8,8 @@
     "@types/node": "^16.11.9"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:unit": "jest .spec.ts",
+    "test:integration": "jest .test.ts"
   }
 }

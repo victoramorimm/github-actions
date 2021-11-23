@@ -15,3 +15,12 @@ test("adds 4 + 2 is not equal to 3", () => {
 
   expect(sum).not.toBe(3);
 });
+
+test("adds 4 + 2 is equal 6", () => {
+  const firstNumber = 4;
+  const secondNumber = 2;
+
+  const sum = firstNumber + secondNumber;
+
+  expect(sum).toBe(6);
+});
